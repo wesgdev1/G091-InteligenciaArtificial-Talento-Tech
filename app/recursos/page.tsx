@@ -205,6 +205,90 @@ export default function Recursos() {
             </p>
           </div>
 
+          {/* Material y documentos entregables de misión 2*/}
+          <div className="mb-16">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">
+                  Misión 2: Aplicación de Machine Learning
+                </span>
+              </h3>
+              <p className="text-gray-400 max-w-2xl mx-auto">
+                Materiales para aplicar técnicas de regresión logística y lineal
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              {/* Diapositivas */}
+              <div className="tech-card group hover:scale-105 transition-all duration-300">
+                <div className="flex flex-col h-full">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
+                        <FileText className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="text-lg font-semibold text-white">
+                          Diapositivas Misión 2
+                        </h4>
+                        <span className="text-sm text-orange-400">
+                          Presentación
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-400 mb-4 flex-grow">
+                    Material teórico sobre regresión logística y lineal para
+                    machine learning
+                  </p>
+                  <a
+                    href="https://collection.cloudinary.com/djrdozcdw/e1f7529fad52434a3c911fba665b7e03"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 group-hover:shadow-lg group-hover:shadow-orange-500/25"
+                  >
+                    <Download className="w-4 h-4 mr-2" />
+                    Descargar Diapositivas
+                  </a>
+                </div>
+              </div>
+
+              {/* Documento a diligenciar */}
+              <div className="tech-card group hover:scale-105 transition-all duration-300">
+                <div className="flex flex-col h-full">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+                        <FileText className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="text-lg font-semibold text-white">
+                          Base Proyecto IA
+                        </h4>
+                        <span className="text-sm text-blue-400">
+                          Documento DOCX
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-400 mb-4 flex-grow">
+                    Plantilla de proyecto para diligenciar con tu implementación
+                    de machine learning
+                  </p>
+                  <a
+                    href="https://res.cloudinary.com/djrdozcdw/raw/upload/v1756053277/DIAPOS/Base_Proyecto_-_IA_BOOTCAMP_1_ozlegt.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 group-hover:shadow-lg group-hover:shadow-blue-500/25"
+                  >
+                    <Download className="w-4 h-4 mr-2" />
+                    Descargar Documento
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {herramientas.map((herramienta, index) => (
               <a
@@ -233,103 +317,6 @@ export default function Recursos() {
       </section>
 
       {/* Categorías de recursos */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
-                Biblioteca de Recursos
-              </span>
-            </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              Explora nuestra colección organizada de materiales de estudio
-            </p>
-          </div>
-
-          <div className="space-y-16">
-            {categorias.map((categoria) => {
-              const IconoCategoria = categoria.icono;
-              return (
-                <div key={categoria.id} className="space-y-8">
-                  {/* Título de categoría */}
-                  <div className="flex items-center space-x-4">
-                    <div
-                      className={`w-12 h-12 bg-gradient-to-r ${categoria.color} rounded-lg flex items-center justify-center`}
-                    >
-                      <IconoCategoria className="w-6 h-6 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-white">
-                      {categoria.titulo}
-                    </h3>
-                  </div>
-
-                  {/* Grid de recursos */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {categoria.recursos.map((recurso, index) => (
-                      <div key={index} className="tech-card group">
-                        <div className="space-y-4">
-                          <div className="flex items-start justify-between">
-                            <h4 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition-colors">
-                              {recurso.titulo}
-                            </h4>
-                            <span
-                              className={`px-2 py-1 rounded-full text-xs font-semibold bg-gradient-to-r ${categoria.color} text-white`}
-                            >
-                              {recurso.tipo}
-                            </span>
-                          </div>
-
-                          <p className="text-gray-400 text-sm">
-                            {recurso.descripcion}
-                          </p>
-
-                          <div className="flex items-center justify-between text-sm text-gray-500">
-                            <div className="space-y-1">
-                              {recurso.tamaño && <div>📁 {recurso.tamaño}</div>}
-                              {recurso.duracion && (
-                                <div>⏱️ {recurso.duracion}</div>
-                              )}
-                              {recurso.lenguaje && (
-                                <div>💻 {recurso.lenguaje}</div>
-                              )}
-                              {recurso.formato && (
-                                <div>📊 {recurso.formato}</div>
-                              )}
-                              {recurso.plataforma && (
-                                <div>🌐 {recurso.plataforma}</div>
-                              )}
-                            </div>
-                          </div>
-
-                          <div className="pt-4 border-t border-gray-700">
-                            <a
-                              href={recurso.url}
-                              target={
-                                recurso.url.startsWith("http")
-                                  ? "_blank"
-                                  : "_self"
-                              }
-                              rel={
-                                recurso.url.startsWith("http")
-                                  ? "noopener noreferrer"
-                                  : ""
-                              }
-                              className="w-full flex items-center justify-center space-x-2 py-2 px-4 bg-gradient-to-r from-green-600 to-cyan-500 text-white font-semibold rounded-lg hover:from-green-700 hover:to-cyan-600 transition-all duration-300"
-                            >
-                              <Download className="w-4 h-4" />
-                              <span>Acceder</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
       {/* Sección de apoyo */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-cyan-600">

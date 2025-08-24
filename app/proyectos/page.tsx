@@ -14,104 +14,91 @@ export default function Proyectos() {
   const proyectos = [
     {
       id: 1,
-      titulo: "ChatBot Educativo con NLP",
+      titulo: "Análisis de Rendimiento de Estudiantes",
       descripcion:
-        "Asistente virtual para responder preguntas sobre IA usando procesamiento de lenguaje natural",
-      estudiantes: ["María González", "Carlos Rodríguez", "Ana Pérez"],
-      tecnologias: ["Python", "NLTK", "Flask", "SQLite"],
+        "Dashboard interactivo con análisis estadístico avanzado y visualizaciones dinámicas para el rendimiento académico. Incluye correlaciones, histogramas y métricas de desempeño educativo.",
+      grupo: "Grupo 1",
+      destacados: [
+        "Dashboard Interactivo",
+        "Análisis Estadístico",
+        "Visualizaciones Dinámicas",
+      ],
       estado: "Completado",
-      fechaEntrega: "2024-11-15",
-      calificacion: 9.5,
+      calificacion: 9.3,
       imagen:
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/chatbot-educativo",
-      demoUrl: "https://chatbot-demo.vercel.app",
-      categoria: "NLP",
+        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054199/DIAPOS/project1_bhbjyk.png",
+      demoUrl: "https://danianclasesia-sys.github.io/analisis_datos/",
+      categoria: "Análisis de Datos",
     },
     {
       id: 2,
-      titulo: "Clasificador de Imágenes Médicas",
+      titulo: "CompuGamers - Venta de Videojuegos",
       descripcion:
-        "Sistema de IA para detectar anomalías en radiografías usando redes neuronales convolucionales",
-      estudiantes: ["Luis Martínez", "Sofia López", "David Torres"],
-      tecnologias: ["TensorFlow", "Keras", "OpenCV", "React"],
-      estado: "En desarrollo",
-      fechaEntrega: "2024-12-01",
-      calificacion: null,
+        "Plataforma de e-commerce especializada en gaming con chat en vivo, catálogo completo de productos gaming, combos especiales y sistema de contacto integrado.",
+      grupo: "Grupo 2",
+      destacados: ["E-commerce Gaming", "Chat en Vivo", "Combos Especiales"],
+      estado: "Completado",
+      calificacion: 9.1,
       imagen:
-        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/clasificador-medico",
-      demoUrl: null,
-      categoria: "Computer Vision",
+        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054215/DIAPOS/Project_5_vcplva.png",
+      demoUrl: "https://carlosch30.github.io/paginaweb/",
+      categoria: "E-commerce",
     },
     {
       id: 3,
-      titulo: "Predictor de Precios de Vivienda",
+      titulo: "Analítica de Tutelas y Derechos de Petición",
       descripcion:
-        "Modelo de machine learning para predecir precios inmobiliarios basado en características de la propiedad",
-      estudiantes: ["Carmen Silva", "Roberto Díaz"],
-      tecnologias: ["Scikit-learn", "Pandas", "NumPy", "Streamlit"],
+        "Sistema completo de análisis de tutelas en salud con dashboard avanzado, filtros dinámicos, visualizaciones por departamento y seguimiento de evolución temporal.",
+      grupo: "Grupo 3",
+      destacados: [
+        "Dashboard Avanzado",
+        "Filtros Dinámicos",
+        "Análisis Temporal",
+      ],
       estado: "Completado",
-      fechaEntrega: "2024-10-30",
-      calificacion: 8.8,
+      calificacion: 9.5,
       imagen:
-        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/predictor-vivienda",
-      demoUrl: "https://predictor-vivienda.streamlit.app",
-      categoria: "Machine Learning",
+        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054193/DIAPOS/project2_gx3o6u.png",
+      demoUrl: "https://alanalisisia.github.io/tutela3/",
+      categoria: "Análisis de Datos",
     },
     {
       id: 4,
-      titulo: "Análisis de Sentimientos en Redes Sociales",
+      titulo: "UniClass - Universidad Virtual",
       descripcion:
-        "Herramienta para analizar la opinión pública sobre temas específicos en redes sociales",
-      estudiantes: ["Andrea Morales", "Javier Hernández", "Isabel Castro"],
-      tecnologias: ["Python", "TextBlob", "Twitter API", "Matplotlib"],
+        "Plataforma educativa moderna con sistema de cursos, profesores, recursos digitales, biblioteca virtual y asistente virtual integrado para estudiantes universitarios.",
+      grupo: "Grupo 4",
+      destacados: [
+        "Plataforma Educativa",
+        "Asistente Virtual",
+        "Biblioteca Digital",
+      ],
       estado: "Completado",
-      fechaEntrega: "2024-11-08",
-      calificacion: 9.2,
+      calificacion: 9.7,
       imagen:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/sentiment-analysis",
-      demoUrl: "https://sentiment-analyzer.herokuapp.com",
-      categoria: "NLP",
+        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054195/DIAPOS/Project_4_s8x5uh.png",
+      demoUrl:
+        "https://alvaros1705-cloud.github.io/sistemasoperativosconalvarito/",
+      categoria: "Educación",
     },
     {
       id: 5,
-      titulo: "Sistema de Recomendación Musical",
+      titulo: "Luis Arturo - Asesor Virtual de Autos",
       descripcion:
-        "Algoritmo que recomienda música basado en preferencias del usuario y análisis de audio",
-      estudiantes: ["Miguel Vargas", "Lucía Ramos"],
-      tecnologias: [
-        "Python",
-        "Spotify API",
-        "Collaborative Filtering",
-        "FastAPI",
+        "Plataforma personalizada de venta de autos con inventario dinámico, sistema de contacto WhatsApp, testimonios de clientes y servicios de financiamiento.",
+      grupo: "Grupo 5",
+      destacados: [
+        "Inventario Dinámico",
+        "WhatsApp Integration",
+        "Sistema de Testimonios",
       ],
-      estado: "En desarrollo",
-      fechaEntrega: "2024-12-15",
-      calificacion: null,
+      estado: "Completado",
+      calificacion: 9.4,
       imagen:
-        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/music-recommender",
-      demoUrl: null,
-      categoria: "Recommender Systems",
-    },
-    {
-      id: 6,
-      titulo: "Detector de Objetos en Tiempo Real",
-      descripcion:
-        "Aplicación que identifica y clasifica objetos usando la cámara web en tiempo real",
-      estudiantes: ["Fernando Ospina", "Valentina Cruz", "Sebastián Mejía"],
-      tecnologias: ["YOLO", "OpenCV", "PyTorch", "WebRTC"],
-      estado: "En desarrollo",
-      fechaEntrega: "2024-12-20",
-      calificacion: null,
-      imagen:
-        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
-      githubUrl: "https://github.com/g091-ia/object-detector",
-      demoUrl: null,
-      categoria: "Computer Vision",
+        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054198/DIAPOS/project_3_r676zi.png",
+      demoUrl:
+        "https://becerraflorezluisarturo-art.github.io/VENTADECARROSLUISARTURO/",
+      categoria: "Comercio",
     },
   ];
 
@@ -121,12 +108,12 @@ export default function Proyectos() {
     enDesarrollo: proyectos.filter((p) => p.estado === "En desarrollo").length,
     promedioCalificacion:
       proyectos
-        .filter((p) => p.calificacion)
-        .reduce((acc, p) => acc + p.calificacion, 0) /
-      proyectos.filter((p) => p.calificacion).length,
+        .filter((p) => p.calificacion !== null)
+        .reduce((acc, p) => acc + (p.calificacion || 0), 0) /
+      proyectos.filter((p) => p.calificacion !== null).length,
   };
 
-  const categorias = [...new Set(proyectos.map((p) => p.categoria))];
+  const categorias = Array.from(new Set(proyectos.map((p) => p.categoria)));
 
   return (
     <div className="pt-16 min-h-screen">
@@ -139,12 +126,12 @@ export default function Proyectos() {
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-tech-purple-400 to-tech-pink-400 bg-clip-text text-transparent">
-                Proyectos Presentados
+                Proyectos Misión 1
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Descubre los increíbles proyectos desarrollados por nuestros
-              estudiantes aplicando IA
+              Proyectos de análisis de datos con Python, Pandas y frontends con
+              IA desarrollados por nuestros campistas
             </p>
           </div>
         </div>
@@ -186,22 +173,19 @@ export default function Proyectos() {
         </div>
       </section>
 
-      {/* Filtros por categoría */}
-      <section className="py-8 bg-tech-dark/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            <button className="px-4 py-2 bg-gradient-to-r from-tech-purple-600 to-tech-pink-500 text-white font-semibold rounded-lg">
-              Todos
-            </button>
-            {categorias.map((categoria) => (
-              <button
-                key={categoria}
-                className="px-4 py-2 border border-tech-purple-500 text-tech-purple-300 font-semibold rounded-lg hover:bg-tech-purple-500 hover:text-white transition-colors"
-              >
-                {categoria}
-              </button>
-            ))}
-          </div>
+      {/* Resumen de la misión */}
+      <section className="py-12 bg-tech-dark/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold mb-4">
+            <span className="bg-gradient-to-r from-tech-purple-400 to-tech-pink-400 bg-clip-text text-transparent">
+              Misión 1: Análisis de Datos y Frontend con IA
+            </span>
+          </h2>
+          <p className="text-gray-300 text-lg">
+            Los campistas desarrollaron proyectos utilizando Python y Pandas
+            para análisis de datos, creando frontends interactivos con
+            herramientas de IA para consultar información de manera inteligente.
+          </p>
         </div>
       </section>
 
@@ -249,75 +233,49 @@ export default function Proyectos() {
                       {proyecto.descripcion}
                     </p>
 
-                    {/* Estudiantes */}
-                    <div className="space-y-2">
-                      <div className="flex items-center space-x-2">
-                        <Users className="w-4 h-4 text-gray-400" />
-                        <span className="text-sm text-gray-400">
-                          Estudiantes:
-                        </span>
-                      </div>
-                      <div className="text-sm text-tech-cyan-400">
-                        {proyecto.estudiantes.join(", ")}
-                      </div>
+                    {/* Grupo */}
+                    <div className="flex items-center space-x-2">
+                      <Users className="w-4 h-4 text-tech-purple-400" />
+                      <span className="text-sm font-semibold text-tech-purple-400">
+                        {proyecto.grupo}
+                      </span>
                     </div>
 
-                    {/* Tecnologías */}
+                    {/* Características destacadas */}
                     <div className="flex flex-wrap gap-2">
-                      {proyecto.tecnologias.map((tech, index) => (
+                      {proyecto.destacados.map((destacado, index) => (
                         <span
                           key={index}
-                          className="px-2 py-1 bg-tech-dark text-tech-cyan-400 text-xs rounded border border-tech-cyan-500/30"
+                          className="px-3 py-1 bg-gradient-to-r from-tech-purple-600/20 to-tech-pink-600/20 text-tech-cyan-400 text-xs rounded-full border border-tech-cyan-500/30"
                         >
-                          {tech}
+                          ✨ {destacado}
                         </span>
                       ))}
                     </div>
 
-                    {/* Información adicional */}
-                    <div className="flex items-center justify-between text-sm text-gray-400">
-                      <div className="flex items-center space-x-2">
-                        <Calendar className="w-4 h-4" />
-                        <span>
-                          {new Date(proyecto.fechaEntrega).toLocaleDateString(
-                            "es-ES"
-                          )}
+                    {/* Calificación */}
+                    {proyecto.calificacion && (
+                      <div className="flex items-center justify-center space-x-2 bg-gradient-to-r from-yellow-500/10 to-orange-500/10 rounded-lg p-3">
+                        <Star className="w-5 h-5 text-yellow-400" />
+                        <span className="text-lg font-bold text-yellow-400">
+                          {proyecto.calificacion}/10
                         </span>
+                        <span className="text-sm text-gray-400">Excelente</span>
                       </div>
-                      {proyecto.calificacion && (
-                        <div className="flex items-center space-x-1">
-                          <Star className="w-4 h-4 text-yellow-400" />
-                          <span className="text-yellow-400">
-                            {proyecto.calificacion}/10
-                          </span>
-                        </div>
-                      )}
-                    </div>
+                    )}
 
-                    {/* Botones de acción */}
-                    <div className="pt-4 border-t border-gray-700 space-y-2">
-                      <div className="flex space-x-2">
-                        <a
-                          href={proyecto.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex-1 flex items-center justify-center space-x-2 py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
-                        >
-                          <Github className="w-4 h-4" />
-                          <span>Código</span>
-                        </a>
-                        {proyecto.demoUrl && (
-                          <a
-                            href={proyecto.demoUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex-1 flex items-center justify-center space-x-2 py-2 px-4 bg-gradient-to-r from-tech-purple-600 to-tech-pink-500 text-white font-semibold rounded-lg hover:from-tech-purple-700 hover:to-tech-pink-600 transition-colors"
-                          >
-                            <Eye className="w-4 h-4" />
-                            <span>Demo</span>
-                          </a>
-                        )}
-                      </div>
+                    {/* Botón de Demo */}
+                    <div className="pt-4 border-t border-gray-700">
+                      <a
+                        href={proyecto.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full flex items-center justify-center space-x-3 py-3 px-6 bg-gradient-to-r from-tech-purple-600 via-tech-pink-500 to-tech-cyan-500 text-white font-bold rounded-xl hover:from-tech-purple-700 hover:via-tech-pink-600 hover:to-tech-cyan-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
+                      >
+                        <Eye className="w-5 h-5" />
+                        <span>Ver Demo en Vivo</span>
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
                     </div>
                   </div>
                 </div>
