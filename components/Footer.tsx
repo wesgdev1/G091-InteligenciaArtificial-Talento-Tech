@@ -22,7 +22,7 @@ const Footer = () => {
                 <h3 className="text-xl font-bold bg-gradient-to-r from-tech-purple-400 to-tech-cyan-400 bg-clip-text text-transparent">
                   G091 - IA Básico
                 </h3>
-                <p className="text-sm text-gray-400">Talento Tech Caribe</p>
+                <p className="text-sm text-gray-400">Talento Tech Cucuta</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">
