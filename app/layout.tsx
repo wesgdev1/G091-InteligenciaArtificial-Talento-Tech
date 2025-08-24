@@ -4,13 +4,14 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ParticlesBackground from "@/components/ParticlesBackground";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "G091 - Inteligencia Artificial Básico",
   description:
-    "Bootcamp de IA con proyectos de análisis de datos, machine learning y frontends con IA. Misiones prácticas desarrolladas por campistas de Talento Tech Caribe.",
+    "Bootcamp de IA con proyectos de análisis de datos, machine learning y frontends con IA. Misiones prácticas desarrolladas por campistas de Talento Tech Cucuta.",
   keywords: [
     "IA",
     "Inteligencia Artificial",
@@ -22,9 +23,9 @@ export const metadata: Metadata = {
     "Análisis de Datos",
     "Proyectos IA",
   ],
-  authors: [{ name: "G091 Talento Tech Caribe" }],
+  authors: [{ name: "G091 Talento Tech Cucuta" }],
   creator: "G091 - Inteligencia Artificial Básico",
-  publisher: "Talento Tech Caribe",
+  publisher: "Talento Tech Cucuta",
 
   // Open Graph para WhatsApp, Facebook, LinkedIn
   openGraph: {
@@ -87,6 +88,7 @@ export default function RootLayout({
           <Footer />
         </div>
       </body>
+      <Analytics />
     </html>
   );
 }
