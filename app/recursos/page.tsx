@@ -9,6 +9,33 @@ import {
   Globe,
 } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Recursos de Aprendizaje | G091 - IA Básico",
+  description:
+    "Materiales de la Misión 2: diapositivas de machine learning, documentos para diligenciar, herramientas de IA y recursos para aprender regresión logística y lineal.",
+  openGraph: {
+    title: "📚 Recursos de IA - Misión 2 Machine Learning",
+    description:
+      "Accede a materiales de machine learning, diapositivas de regresión, documentos de proyecto y herramientas esenciales para IA.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Recursos de Machine Learning - G091",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "📚 Recursos de IA - Misión 2 Machine Learning",
+    description:
+      "Materiales de machine learning, herramientas y recursos para aprender IA.",
+    images: ["/logo.png"],
+  },
+};
 
 export default function Recursos() {
   const categorias = [
