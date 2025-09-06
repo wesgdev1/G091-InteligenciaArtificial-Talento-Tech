@@ -67,7 +67,7 @@ export default function Proyectos() {
       estado: "Completado",
       calificacion: 9.1,
       imagen:
-        "https://res.cloudinary.com/djrdozcdw/image/upload/v1756054215/DIAPOS/Project_5_vcplva.png",
+        "../",
       demoUrl: "https://carlosch30.github.io/paginaweb/",
       categoria: "E-commerce",
     },

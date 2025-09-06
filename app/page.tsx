@@ -10,6 +10,7 @@ import {
   Target,
   Clock,
 } from "lucide-react";
+import Viewer360 from "./components/Viewer360";
 
 export default function Home() {
   return (
@@ -164,6 +165,70 @@ export default function Home() {
                 <p className="text-gray-400 text-sm">{item.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sección de vista 360° */}
+      <section className="py-20 bg-gradient-to-b from-tech-dark/30 to-tech-dark/80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-tech-purple-400 to-tech-cyan-400 bg-clip-text text-transparent">
+                Recorrido Virtual 360°
+              </span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Sumérgete en nuestro espacio de aprendizaje. Explora cada rincón
+              de nuestro salón de clases con esta experiencia inmersiva de 360
+              grados.
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <Viewer360
+              panoravenUrl="https://panoraven.com/es/embed/zuYMlDYA5f"
+              title="Vista Completa del Salón G091"
+            />
+          </div>
+
+          {/* Características del tour virtual */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+            <div className="tech-card text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-tech-purple-600 to-tech-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white font-bold">360°</span>
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Vista Completa
+              </h3>
+              <p className="text-gray-400 text-sm">
+                Explora todo el salón girando en cualquier dirección
+              </p>
+            </div>
+
+            <div className="tech-card text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-tech-cyan-600 to-tech-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">🔍</span>
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Zoom Interactivo
+              </h3>
+              <p className="text-gray-400 text-sm">
+                Acércate para ver los detalles de nuestro equipamiento
+              </p>
+            </div>
+
+            <div className="tech-card text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-tech-purple-600 to-tech-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">🖱️</span>
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Controles Fáciles
+              </h3>
+              <p className="text-gray-400 text-sm">
+                Navega intuitivamente con el mouse o controles táctiles
+              </p>
+            </div>
           </div>
         </div>
       </section>

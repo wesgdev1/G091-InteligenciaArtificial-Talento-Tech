@@ -1,6 +1,6 @@
 # G091 - Inteligencia Artificial Básico
 
-Sitio web del grupo G091 de Inteligencia Artificial Básico - Talento Tech Caribe.
+Sitio web del grupo G091 de Inteligencia Artificial Básico - Talento Tech cucuta.
 
 ## 🚀 Características
 
@@ -21,7 +21,7 @@ Sitio web del grupo G091 de Inteligencia Artificial Básico - Talento Tech Carib
 
 ## 🎨 Diseño
 
-El sitio utiliza la paleta de colores de Talento Tech Caribe:
+El sitio utiliza la paleta de colores de Talento Tech Cucuta:
 - Azules profundos (#1e40af, #1e3a8a)
 - Morados/violetas (#7c3aed, #a855f7)
 - Cian/turquesa (#0891b2, #22d3ee)
@@ -135,7 +135,7 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 ## 📞 Contacto
 
 **G091 - Inteligencia Artificial Básico**  
-Talento Tech Caribe  
+Talento Tech Cucuta 
 Atlántico, César, La Guajira, Magdalena
 
 ---
